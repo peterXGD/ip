@@ -1,3 +1,5 @@
+package venus;
+
 public class Task {
     private String item;
     private boolean mark;
@@ -20,8 +22,9 @@ public class Task {
     public String getItem(){
         return item;
     }
+
     @Override
-    public String toString(){
+    public String toString() {
         String X = mark ? "X" : " ";
         return ("[" + X + "] " + item);
     }
